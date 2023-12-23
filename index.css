@@ -1,0 +1,300 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.head{
+    background-color:#F7FDFC;
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
+.head80{
+    width: 65%;
+    margin: auto;
+}
+.flex-box{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 100%;      
+}
+.flex1-box{
+    padding-top: 200px;
+}
+.flex1-box h1{
+    padding-top: 15px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -0.8px;
+}
+.p-lap{
+    padding-top: 20px;
+    font-weight: 400px;
+    size: 16px;
+    line-height: 25px;
+    color: #737373;  
+}
+.p-mobile{
+   display: none;
+}
+.flex2-box{
+    padding-top: 100px;
+    margin-bottom: 2rem;
+}
+form{
+    background-color: #FFFFFF;
+    box-shadow: 300px #f1f1f1;
+    width: 100%;
+    margin:  auto;
+    border-radius: 10px;
+    padding: 30px;
+    height: auto;
+}
+input[type=text]{
+    width: 100%;
+    padding:15px;
+    color: #737373;
+    margin: 8px 0;
+    border: 1px solid #555;
+    box-sizing: border-box;
+    opacity:0.4;
+}
+.first-last{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%; 
+}
+.first{
+    width: 45%;
+}
+.last{
+    width: 45%;
+}
+#firstname{
+    border: 2px solid #2EC4B6; 
+} 
+.gender-birth{
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;  
+}
+.gender-birth > div{
+    width: 45%;
+}
+#gender{
+    width: 100%;
+    padding: 16px 20px;
+    border: 1px solid black;
+    background-color: #fff;
+    opacity: 0.4;
+}
+#birthday{
+    width: 100%;
+    padding: 16px 20px;
+    border: 1px solid black;
+    opacity: 0.4;
+}
+.weight-height> div{
+    width: 45%;
+}
+.weight-height{
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+#act{
+    width: 95%;
+    padding:15px;
+    margin-left: 15px;
+    border: 1px solid;
+    box-sizing: border-box;
+    background-color: #fff;
+    opacity: 0.4;
+}
+.pass{
+    width: 95%;
+    margin-left: 15px;
+    line-height: 15px;
+}
+.pass label{
+    padding-top: 10px;
+}
+.act label{
+    margin-left: 15px;
+}    
+input[type=submit] {
+    width: 95%;
+    background-color: #2EC4B6;
+    color: white;
+    padding: 15px;
+    margin-left: 16px;
+    border: none;
+    cursor: pointer;
+    line-height: 10px;
+}  
+i{
+    margin-left: -35px;
+}
+a{
+    color: #2EC4B6;
+}
+  
+@media  screen and (max-width: 600px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+    .head{
+        background-color:#F7FDFC;
+        height: 200vh;
+        width: 100%;
+        margin: auto;
+    }
+    .head80{
+        width: 100%;
+        margin: auto;
+    }
+    .flex-box{
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+    }
+    .flex1-box{
+        padding-top: 80px;
+        margin: auto;
+    }
+    .flex1-box h1{
+        padding-top: 15px;
+        font-family:Arial, Helvetica, sans-serif ;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 50px;
+        letter-spacing: -0.8px;
+    }
+    .p-lap{
+        display: none;
+    }
+    .p-mobile{
+        display:contents;
+        padding-top: 20px;
+        font-weight: 400px;
+        size: 16px;
+        line-height: 25px;
+        color: #737373;
+    }
+    .flex2-box{
+        padding: 40px;
+    }
+    form {
+        background-color: #FFFFFF;
+        box-shadow: 20px 20px 15px #f1f1f1;
+        width: 100%;
+        margin:  auto;
+        box-sizing: 10px;
+        padding: 20px;
+        height: 133vh;
+    }
+    input[type=text] {
+        width: 100%;
+        padding:15px;
+        color: #737373;
+        margin: 8px 0;
+        border: 1px solid #555;
+        box-sizing: border-box;
+    }
+    label{
+        padding-top: 5px;
+    }
+    .first-last{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%; 
+    }
+    .first{
+        width: 100%;
+    }
+    .last{
+        width: 100%;
+    }
+    #firstname{
+        border: 2px solid #2EC4B6; 
+    } 
+    .gender-birth{
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .gender-birth > div{
+        width: 100%;
+        }
+    #gender{
+        width: 100%;
+        padding: 16px 20px;
+        border: 1px solid black;
+        background-color: #fff;
+    }
+    #birthday{
+        width: 100%;
+        padding: 16px 20px;
+        border: 1px solid black;
+        line-height: 10px;
+    }
+    .birth{
+        padding-top: 20px;
+    }
+    .weight-height> div{
+        width: 100%;
+    }    
+    .weight-height{
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+    }
+    #act {
+        width: 100%;
+        padding:15px;
+        margin-left: 1px;
+        border: 1px solid;
+        box-sizing: border-box;
+        background-color: #fff;
+    }
+    .pass {
+        width: 100%;
+        margin-left: 1px;
+    }
+    .act label{
+        margin-left: 1px;
+    }
+    input[type=submit] {
+        width: 100%;
+        background-color: #2EC4B6;
+        color: white;
+        padding:  15px;
+        margin: 3px;
+        border: none;
+        line-height: 15px;
+        cursor: pointer;
+    }
+    i{
+        margin-left: -30px;
+    }
+    a{
+        color: #2EC4B6;
+    }       
+}
